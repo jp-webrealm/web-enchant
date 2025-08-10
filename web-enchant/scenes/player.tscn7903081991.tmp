@@ -28,6 +28,8 @@ animations = [{
 [node name="CharacterBody2D" type="CharacterBody2D" parent="."]
 scale = Vector2(2.60989, 2.60989)
 script = ExtResource("1_qhqgy")
+speed = null
+health = null
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D"]
 shape = SubResource("RectangleShape2D_tuyoq")
@@ -35,4 +37,4 @@ shape = SubResource("RectangleShape2D_tuyoq")
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="CharacterBody2D"]
 sprite_frames = SubResource("SpriteFrames_fjrip")
 animation = &"idle"
-frame_progress = 0.702463
+frame_progress = 0.513992
